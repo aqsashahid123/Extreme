@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_house"
+            android:icon="@drawable/play_btn_white"
+            android:title="House" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/play_btn_white"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_rooms"
+            android:icon="@drawable/play_btn_white"
+            android:title="Rooms" />
+        <item
+            android:id="@+id/nav_controller"
+            android:icon="@drawable/play_btn_white"
+            android:title="Car Controllers" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/play_btn_white"
+            android:title="Weather" />
+
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/play_btn_white"
+                android:title="Settings" />
+
+        </menu>
+        </item>
+    </group>
+</menu>
